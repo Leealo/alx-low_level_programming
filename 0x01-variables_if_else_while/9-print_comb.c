@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+/**
+ * main - program prints possible combinations of
+ * single digit numbers separated by commas 
+ * in ascending order and are printed with putchar
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+	int i;
+
+	for (i = 48; i <= 57; i++)
+	{
+		putchar(i);
+		if (i != 57)
+		{
+			putchar(',');
+			putchar(' ');
+		}
+	}
+	putchar('\n');
+	return (0);
+}
