@@ -2,7 +2,7 @@
 
 /**
  * main - program prints possible combinations of
- * single digit numbers separated by commas 
+ * single digit numbers separated by commas
  * in ascending order and are printed with putchar
  * Return: Always 0 (Success)
  */
