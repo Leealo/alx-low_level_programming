@@ -9,7 +9,7 @@
 int main(void)
 {
 	int i, e, g;
-	
+
 	i = 48;
 	e = 48;
 	g = 48;
@@ -21,12 +21,12 @@ int main(void)
 		{
 			g = 48;
 			while (g < 58)
-				if (e != i && e != g && i != g 						&& e < i && i < g)
+				if (e != i && e != g && i != g	&& e < i && i < g)
 				{
 					putchar(e);
 					putchar(i);
 					putchar(g);
-					if (i == 56 && e == 55 							&& g == 57)
+					if (i == 56 && e == 5	&& g == 57)
 					{
 						break;
 					}
