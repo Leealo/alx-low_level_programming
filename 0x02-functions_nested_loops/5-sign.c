@@ -6,9 +6,9 @@
  * and prints the sign
  * @n: int to check
  *
- * Return 1: if n > 0 print +
- * Return 0: if n = 0 print 0
- * Return -1: if n < 0 print -
+ * Return 1: if n > 0 prints +
+ * Return 0: if n = 0 prints 0
+ * Return -1: if n < 0 prints -
  *
  */
 int print_sign(int n)
