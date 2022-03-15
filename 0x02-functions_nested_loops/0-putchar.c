@@ -1,14 +1,18 @@
-#include <unistd.h>
 #include "main.h"
 
 /**
- * _putchar - writes the character "c" to standard output
- *
- * Return: 1 (Success)
- *
+ * main - program prints _putchar followed by a new line.
+ * Return: Always 0 (Success)
  */
-
-int _putchar(char c)
+int main(void)
 {
-	return (write(1, &c, 1));
+	char ch[] = "_putchar";
+		int i;
+
+		for (i = 0; ch[i] != '0'; i++)
+		{
+			_putchar(ch[i]);
+		}
+		_putchar('\n');
+		return (0);
 }
