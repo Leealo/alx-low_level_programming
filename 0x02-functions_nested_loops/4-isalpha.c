@@ -5,12 +5,12 @@
  * _isalpha - checks for an alphabet
  * @c: character to check
  *
- * Return: 1 if c is an alphabet
+ * Return: 1 if c is an alphabet, otherwise return 0
  */
 int _isalpha(int c)
 {
 	if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
 			return (1);
-			else
+	else
 			return (0);
-			}
+}
