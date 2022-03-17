@@ -2,7 +2,7 @@
 
 /**
  * print_numbers - prints numbers between 0 and 9
- * Return: nil
+ * Return: null
  */
 void print_numbers(void)
 {
@@ -12,4 +12,5 @@ void print_numbers(void)
 	{
 		_putchar(ch);
 	}
+	_putchar('\n');
 }
