@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - prints Buzz for multiples of 3 and 5
+ * main - prints FizzBuzz for multiples of 3 and 5
+ * prints Fizz for multiples of 3 only
+ * prints Buzz for multiples of 5 
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -12,7 +14,7 @@ int main(void)
 	printf("%d", n);
 	for (n = 2; n <= 100; n++)
 	{
-		if ((n % 3 == 0) && (n % 5 == 0))
+		if (n % 15 == 0)
 		{
 			printf("FizzBuzz");
 		}
