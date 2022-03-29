@@ -7,7 +7,7 @@
  * Return: a pointer to the byte in s that matches with accept,
  * if none return null
  */
-char *strpbrk(char *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
 	unsigned int i, j;
 
